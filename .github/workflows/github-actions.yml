@@ -19,7 +19,7 @@ jobs:
     runs-on: ${{ matrix.config.os }}
 
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
-    
+
     strategy:
       fail-fast: false
       matrix:
@@ -29,8 +29,8 @@ jobs:
           - {os: windows-latest, r: '3.6'}
 
           # Test the package on Linux OS and latest / 3.6 R Version
-          - {os: ubuntu-18.04,   r: 'release'}
-          - {os: ubuntu-18.04,   r: 'oldrel-1'}
+          - {os: ubuntu-latest,   r: 'release'}
+          - {os: ubuntu-latest,   r: '3.6'}
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -55,4 +55,4 @@ jobs:
 
       - uses: r-lib/actions/check-r-package@v2
         with:
-          upload-snapshots: true      
+          upload-snapshots: true
