@@ -13,7 +13,7 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  Schedule:
+  schedule:
     - cron: '0 13 * * *'
 
 jobs:
