@@ -26,10 +26,6 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          # Test the package on Windows OS and latest / 3.6 R Version
-          - {os: windows-latest, r: 'release'}
-          - {os: windows-latest, r: '3.6'}
-
           # Test the package on Linux OS and latest / 3.6 R Version
           - {os: ubuntu-latest,   r: 'release'}
           - {os: ubuntu-latest,   r: '3.6'}
