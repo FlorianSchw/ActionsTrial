@@ -1,6 +1,6 @@
 <!-- badges: start -->
   [![R-CMD-check](https://github.com/FlorianSchw/ActionsTrial/actions/workflows/github-actions.yml/badge.svg)](https://github.com/FlorianSchw/ActionsTrial/actions/workflows/github-actions.yml)
-[![Codecov test coverage](https://codecov.io/gh/FlorianSchw/ActionsTrial/branch/main/graph/badge.svg)](https://app.codecov.io/gh/FlorianSchw/ActionsTrial?branch=main)
+[![codecov](https://codecov.io/gh/FlorianSchw/ActionsTrial/graph/badge.svg?token=338SY1AG30)](https://codecov.io/gh/FlorianSchw/ActionsTrial)
 <!-- badges: end -->
 
 
